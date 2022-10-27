@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.id="Blaze" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../src/test/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-genfiles" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-out" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-testlogs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-guice-basic" />
+      <excludeFolder url="file://$MODULE_DIR$/../.." />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Runner_deploy-ijar_cef9170a" level="project" />
+    <orderEntry type="library" name="junit-jupiter-api-5.9.1_cef9aa26" level="project" />
+    <orderEntry type="library" name="guava-31.1-jre_40f8ab40" level="project" />
+    <orderEntry type="library" name="guice-5.1.0_d55d55f7" level="project" />
+  </component>
+</module>

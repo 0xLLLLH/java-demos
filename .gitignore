@@ -29,7 +29,7 @@ hs_err_pid*
 /bazel.iml
 # Ignore all bazel-* symlinks. There is no full list since this can change
 # based on the name of the directory bazel is cloned into.
-/bazel-*
+bazel-*
 # Ignore outputs generated during Bazel bootstrapping.
 /output/
 # Ignore jekyll build output.
@@ -39,3 +39,5 @@ hs_err_pid*
 .bazelversion
 # User-specific .bazelrc
 user.bazelrc
+
+!bazel-basic/

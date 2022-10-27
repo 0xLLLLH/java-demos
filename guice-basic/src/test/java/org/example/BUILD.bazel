@@ -1,0 +1,9 @@
+java_test(
+    name = "MainTest",
+    srcs = glob(["*.java"]),
+    deps = [
+        "//:Main",
+        "@maven//:com_google_inject_guice",
+        "@maven//:org_junit_jupiter_junit_jupiter_api",
+    ],
+)
