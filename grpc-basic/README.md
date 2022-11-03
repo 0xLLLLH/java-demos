@@ -3,7 +3,7 @@
 gRPC是Google开源的RPC框架，其使用[Protocol Buffer](https://developers.google.com/protocol-buffers/docs/overview)作为二进制协议来序列化数据
 
 ## Overview
-![img.png](assets/gRPC Overview.png)
+![img.png](assets/gRPC-overview.png)
 
 ## 配置
 
