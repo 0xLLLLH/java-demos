@@ -227,7 +227,7 @@ private void stop() throws InterruptedException {
 #### 客户端实现
 
 客户端想要和服务端通信分为以下几步：
-1. 创建和服务端的Channel
+1. 创建和服务端通信用的Channel
 2. 创建stub
 3. 通过stub执行rpc调用
 
@@ -274,3 +274,4 @@ public void sayHelloToServer(String name) {
 ## References
 
 - [官方grpc-java README](https://github.com/grpc/grpc-java/blob/master/README.md)
+- [Protocol Buffers文档](https://developers.google.com/protocol-buffers/docs/proto3)
